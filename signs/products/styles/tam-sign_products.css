@@ -119,7 +119,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    padding: 0 3em;
+    padding: 0 3rem;
     background: transparent;
     opacity: 0;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .tam-sign_products_page[data-card-cnt="1"] {
-    padding: 0 6em;
+    padding: 0 20rem;
 }
 
 .tam-sign_products_cards {
@@ -138,6 +138,11 @@ body {
     align-items: stretch;
     justify-content: space-evenly;
     width: 100%;
+    font-size: 1.3rem;
+}
+
+.tam-sign_products_page[data-card-cnt="3"] .tam-sign_products_cards {
+    font-size: 0.9rem;
 }
 
 .tam-sign_products_card {
@@ -147,9 +152,9 @@ body {
     flex-basis: 30em;
     margin: 0 1em;
     background-color: rgb(var(--neutral-off-white));
-    -webkit-box-shadow: 0 0 2em -1em rgb(var(--neutral-dark));
-    -moz-box-shadow: 0 0 2em -1em rgb(var(--neutral-dark));
-    box-shadow: 0 0 2em -1em rgb(var(--neutral-dark));
+    -webkit-box-shadow: 0 0 2rem -1rem rgb(var(--neutral-dark));
+    -moz-box-shadow: 0 0 2rem -1rem rgb(var(--neutral-dark));
+    box-shadow: 0 0 2rem -1rem rgb(var(--neutral-dark));
 }
 
 .tam-sign_products_card:first-child {
