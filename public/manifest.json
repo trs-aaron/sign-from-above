@@ -1,0 +1,9 @@
+{
+  "short_name": "Tam-Signs",
+  "name": "Tamarack Signs",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF7245",
+  "background_color": "#FEFEFE"
+}

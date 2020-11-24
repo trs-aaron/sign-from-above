@@ -1,0 +1,65 @@
+$font-path: './assets/fonts/lato';
+$font-name: 'Lato';
+
+@font-face {
+    font-family: $font-name;
+    src: url('#{$font-path}/lato.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato-italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato-thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato-thin-italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato-light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato-light-italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato_bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato_black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('#{$font-path}/lato_black-italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
