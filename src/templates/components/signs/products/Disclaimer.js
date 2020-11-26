@@ -1,4 +1,4 @@
-import * as styles from 'sass/pages/signs/sign_products.scss';
+import * as styles from 'sass/components/signs/products/Disclaimer.scss';
 
 
 const tmpl = (props) => {

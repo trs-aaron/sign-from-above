@@ -1,11 +1,11 @@
 import Util from 'lib/tam/util/Util';
-import * as styles from 'sass/pages/signs/sign_products.scss';
+import * as styles from 'sass/components/signs/products/ProductCol.scss';
 
 
 const tmpl = (props) => {
     props = {
         text: (Util.isNonEmptyString(props.text)) ? props.text : null,
-        class: `tam-sign_products_card_item_col ${props.class}`
+        class: `tam-sign_products_card_product_col ${props.class}`
     }
 
     return (

@@ -1,6 +1,6 @@
 import Util from 'lib/tam/util/Util';
 import Card from 'components/signs/products/Card';
-import * as styles from 'sass/pages/signs/sign_products.scss';
+import * as styles from 'sass/pages/signs/ProductsSign.scss';
 
 
 const tmpl = (props) => {

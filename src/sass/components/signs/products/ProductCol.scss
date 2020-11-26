@@ -1,0 +1,18 @@
+@import 'sass/colors.scss';
+
+.tam-sign_products_card_product_col {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase
+}
+
+.tam-sign_products_card_product_col.head {
+    font-weight: 600;
+    font-variant-caps: all-small-caps;
+    color: $orange;
+}
+
+.tam-sign_products_card_product_col.price {
+    text-align: right;
+}

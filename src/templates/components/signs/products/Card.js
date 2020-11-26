@@ -2,7 +2,7 @@ import Util from 'lib/tam/util/Util';
 import CardInfo from 'components/signs/products/CardInfo';
 import Disclaimer from 'components/signs/products/Disclaimer';
 import Product from 'components/signs/products/Product';
-import * as styles from 'sass/pages/signs/sign_products.scss';
+import * as styles from 'sass/components/signs/products/Card.scss';
 
  
 const tmpl = (props) => {
@@ -24,7 +24,7 @@ const tmpl = (props) => {
             </div>
             <div className="tam-sign_products_card_content">
                 {(props.info) && <CardInfo model={props.info} />}
-                <div className="tam-sign_products_card_items" data-price-cols={props.priceColCnt}>
+                <div className="tam-sign_products_card_products" data-price-cols={props.priceColCnt}>
                     {props.products.map((p, i) => <Product key={i} model={p} />)}
                 </div>
                 <div className="tam-sign_products_card_disclaimers">

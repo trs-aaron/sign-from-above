@@ -1,0 +1,93 @@
+@import 'sass/colors.scss';
+
+.tam-sign_products_card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 30em;
+    margin: 0 1em;
+    background-color: $neutral-off-white;
+    -webkit-box-shadow: 0 0 2rem -1rem $neutral-dark;
+    -moz-box-shadow: 0 0 2rem -1rem $neutral-dark;
+    box-shadow: 0 0 2rem -1rem $neutral-dark;
+}
+
+.tam-sign_products_card:first-child {
+    margin-left: 0;
+}
+
+.tam-sign_products_card:last-child {
+    margin-right: 0;
+}
+
+.tam-sign_products_card.size-small {
+    flex-basis: 20em;
+}
+
+.tam-sign_products_card.size-large {
+    flex-basis: 40em;
+}
+
+.tam-sign_products_card[data-transp-bkgd="1"] {
+    background-color: transparent;
+}
+
+.tam-sign_products_card_header {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    background-color: $orange;
+}
+
+.tam-sign_products_card[data-has-logo="1"] {
+    .tam-sign_products_card_logo {
+        display: block;
+    }
+}
+
+.tam-sign_products_card[data-transp-bkgd="1"] {
+     .tam-sign_products_card_content {
+        border: 1px solid rgba($neutral-dark,0.4);
+        border-top: none;
+     }
+}
+
+.tam-sign_products_card_logo {
+    display: none;
+    position: absolute;
+    left: 2em;
+    bottom: -0.75em;
+    width: 4em;
+    height: 4em;
+    background-image: url(/assets/svg/tam-compass.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tam-sign_products_card_title {
+    position: relative;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: $neutral-off-white;
+}
+
+.tam-sign_products_card_content {
+    flex: 1;
+    padding: 1.5em;
+}
+
+.tam-sign_products_card_products {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-auto-rows: max-content;
+    grid-gap: 1em;
+}
+
+.tam-sign_products_card_products[data-price-cols="2"] {
+    grid-template-columns: 1fr max-content max-content;
+}
