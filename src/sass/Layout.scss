@@ -1,0 +1,12 @@
+.tam-sign_layout {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+
+    &[data-is-visible="1"] {
+        opacity: 1;
+    }
+}

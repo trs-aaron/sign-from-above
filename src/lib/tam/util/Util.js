@@ -1,9 +1,13 @@
-class Util {
+export default class Util {
 
-    /*static buildUrl(path) {
-        path = (path) ? path.replace(/^\//g, '') : '';
-        return `${Util.BASE_URL}/${path}`;
-    }*/
+    static getBaseUrl() {
+        return `${window.location.protocol}://${window.location.host}`
+    }
+
+    static buildUrl(path) {
+        let url = `${Util.getBaseUrl()}/${path}`;
+        return url;
+    }
 
     static convertToSlug(text) {
         let slug = '';
@@ -69,8 +73,3 @@ class Util {
         return (Util.isInt(val) && Util.isNumber(lowerBound) && Util.isNumber(upperBound) && val > lowerBound && val < upperBound);
     }
 }
-
-//Util.BASE_URL = /^(.*)(\/script\/.*)/g.exec(import.meta.url)[1];
-
-
-export default Util;

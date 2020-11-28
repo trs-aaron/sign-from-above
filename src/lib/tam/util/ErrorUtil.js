@@ -15,25 +15,27 @@ class ErrorUtil {
         ErrorUtil.raiseError(className, funcName, msg, `Invalid Parameter '${paramName}'`);
     }
 
+    static raiseInvalidParameterClassError(className, funcName, paramName, paramClass) {
+        ErrorUtil.raiseInvalidParamater(className, funcName, `Expected instance of type ${paramClass}`, `Invalid Parameter '${paramName}'`);
+    }
+
     static raiseInvalidPropertyValueError(className, propName, msg) {
         ErrorUtil.raiseError(className, propName, msg, `Invalid Property Value '${propName}'`);
     }
 }
 
-
 ErrorUtil.MSG = {
-    valueType: {
-        object: 'Expected Object.',
-        bool: 'Expected boolean.',
-        string: 'Expected string.',
-        stringOrNull: 'Expected string or null.',
-        nonEmptyString: 'Expected non empty string.',
-        int: 'Expected integer.',
-        nonNegInt: 'Expected non negative integer.',
-        posInt: 'Expected a positive integer.',
-        negInt: 'Expected a negative integer.',
+    VALUE_TYPE: {
+        OBJECT: 'Expected Object.',
+        BOOL: 'Expected boolean.',
+        STRING: 'Expected string.',
+        STRING_OR_NULL: 'Expected string or null.',
+        NON_EMPTY_STRING: 'Expected non empty string.',
+        INT: 'Expected integer.',
+        NON_NEG_INT: 'Expected non negative integer.',
+        POS_INT: 'Expected a positive integer.',
+        NEG_INT: 'Expected a negative integer.',
     }
-
 }
 
 
