@@ -1,0 +1,21 @@
+@import 'sass/colors.scss';
+
+.tam-sign_vector {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: $neutral-very-dark;
+}
+
+.tam-sign_vector_cntr {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tam-sign_vector_img {
+    width: 100%;
+    height: 100%;
+}

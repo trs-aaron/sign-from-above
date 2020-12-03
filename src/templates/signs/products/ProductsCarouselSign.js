@@ -6,6 +6,7 @@ import * as styles from 'sass/signs/products/ProductsCarouselSign.scss';
 
 const template = (props) => {
     props = {
+        isVisible: props.isVisble,
         cardCnt: (Util.isPosInt(props.cardCnt) || true) ? props.cardCnt : 0,
         cards: (Array.isArray(props.cards)) ? props.cards : [],
         transitionDelay: (Util.isPosInt(props.transitionDelay)) ? props.transitionDelay : Carousel.DEFAULT_TRANSITION_DELAY

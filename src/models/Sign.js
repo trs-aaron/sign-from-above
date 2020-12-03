@@ -54,6 +54,7 @@ class Sign {
 }
 
 Sign.TYPES = {
+    VECTOR: 'vector',
     PRODUCTS: 'products',
     PRODUCTS_CAROUSEL: 'products-carousel'
 }

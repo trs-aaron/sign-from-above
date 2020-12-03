@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Model from 'models/signs/products/ProductsCarouselSign'
 import Template from 'templates/signs/products/ProductsCarouselSign';
 
 
-export default class ProductsSign extends React.Component {
+class ProductsSign extends React.Component {
 
     constructor(props) {
         super(props);
@@ -24,3 +25,16 @@ export default class ProductsSign extends React.Component {
         return Template(props);
     }
 }
+
+ProductsSign.defaultProps = {
+    isVisible: true,
+    model: null
+};
+
+ProductsSign.propTypes = {
+    isVisible: PropTypes.bool,
+    model: PropTypes.instanceOf(Model)
+};
+
+
+export default ProductsSign;

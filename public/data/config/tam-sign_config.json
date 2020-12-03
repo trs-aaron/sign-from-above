@@ -13,6 +13,12 @@
             "deviceId": "fire-stick-3",
             "layoutId": "sports-desk-1-1-card"
         },
+        "sd-screen-3": {
+            "id": "sd-screen-3",
+            "name": "Sports Dome Screen 3",
+            "deviceId": "fire-stick-5",
+            "layoutId": "winter-trail-status"
+        },
         "cd-screen-1": {
             "id": "cd-screen-1",
             "name": "Canoe Dome Screen 1",
@@ -27,6 +33,14 @@
         }
     },
     "layouts": {
+        "winter-trail-status": {
+            "id": "winter-trail-status",
+            "name": "Winter Trail Status",
+            "layoutName": "single",
+            "signIds": [
+                "winter-trail-map"
+            ]
+        },
         "sports-desk-1-2-card": {
             "id": "sports-desk-1-2-card",
             "name": "Sports Desk 1 Sign 2 Cards",
@@ -61,6 +75,14 @@
         }
     },
     "signs": {
+        "winter-trail-map": {
+            "id": "trail-map",
+            "name": "Trail Map",
+            "_typeId": "vector",
+            "_data": {
+                "assetName": "winter-trail-map"
+            }
+        },
         "sports-desk-1": {
             "id": "sports-desk-1",
             "name": "Sports Desk 1 Card",

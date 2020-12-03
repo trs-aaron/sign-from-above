@@ -3,6 +3,7 @@ import Model from 'models/Sign';
 import * as styles from 'sass/Sign.scss';
 
 // Signs
+import VectorSign from 'signs/VectorSign';
 import ProductsSign from 'signs/products/ProductsSign';
 import ProductsCarouselSign from 'signs/products/ProductsCarouselSign';
 
@@ -18,6 +19,9 @@ const template = (props) => {
 
     if (props.model) {
         switch(props.model.typeId) {
+            case Model.TYPES.VECTOR:
+                Sign = () => <VectorSign model={props.model} />;
+                break;
             case Model.TYPES.PRODUCTS:
                 Sign = () => <ProductsSign model={props.model} />;
                 break;

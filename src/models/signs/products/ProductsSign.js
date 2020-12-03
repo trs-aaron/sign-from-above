@@ -38,10 +38,6 @@ export default class ProductsSign extends Sign {
     }
 
     static fromJSON(json) {
-        if (!json || !('cards' in json) || !Array.isArray(json['cards'])) {
-            ErrorUtil.raiseInvalidParameterError('ProductsSign', 'fromJSON', 'json', ErrorUtil.MSG.VALUE_TYPE.JSON);
-        }
-
         let obj = super.fromJSON(json);
         return ProductsSign.convertFromBase(obj);
     }

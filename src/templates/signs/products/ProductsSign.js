@@ -5,6 +5,7 @@ import * as styles from 'sass/signs/products/ProductsSign.scss';
 
 const template = (props) => {
     props = {
+        isVisible: props.isVisble,
         cardCnt: (Util.isPosInt(props.cardCnt) || true) ? props.cardCnt : 0,
         cards: (Array.isArray(props.cards)) ? props.cards : []
     };

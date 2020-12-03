@@ -51,10 +51,6 @@ export default class ProductsCarouselSign extends Sign {
     }
 
     static fromJSON(json) {
-        if (!json || !('cards' in json) || !Array.isArray(json['cards'])) {
-            ErrorUtil.raiseInvalidParameterError('ProductsCarouselSign', 'fromJSON', 'json', ErrorUtil.MSG.VALUE_TYPE.JSON);
-        }
-
         let obj = super.fromJSON(json);
         return ProductsCarouselSign.convertFromBase(obj);
     }
