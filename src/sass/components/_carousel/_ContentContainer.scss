@@ -1,0 +1,40 @@
+$transition-delay: 0ms;
+$transition-duration: 800ms;
+
+.tam-sign_carousel_content-cntr {
+    position: absolute;
+    top: 0;
+    left: 110%;
+    right: auto;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    will-change: left, opacity;
+    transform: translateZ(0);
+
+    &[data-position="Q"] {
+        left: 100%;
+    }
+
+    &[data-position="OD"] {
+        left: 100%;
+    }
+
+    &[data-position="P1"] {
+        opacity: 1;
+        left: 50%;
+        transition: left $transition-duration ease-in-out $transition-delay;
+    }
+
+    &[data-position="P2"] {
+        opacity: 1;
+        left: 0;
+        transition: left $transition-duration ease-in-out $transition-delay;
+    }
+
+    &[data-position="X"] {
+        opacity: 1;
+        left: -50%;
+        transition: left $transition-duration ease-in-out $transition-delay;
+    }
+}

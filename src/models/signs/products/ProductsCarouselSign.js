@@ -6,8 +6,6 @@ import Sign from 'models/Sign';
 
 export default class ProductsCarouselSign extends Sign {
 
-    DEFAULT_TRANSITION_DELAY = 5000;
-
     constructor() {
         super();
         this._typeId = Sign.TYPES.PRODUCTS_CAROUSEL;
@@ -22,7 +20,7 @@ export default class ProductsCarouselSign extends Sign {
     }
 
     get transitionDelay() {
-        return (this._data && 'transitionDelay' in this._data && Array.isArray(this._data['transitionDelay'])) ? this._data['transitionDelay'] : ProductsCarouselSign.DEFAULT_TRANSITION_DELAY;
+        return (this._data && 'transitionDelay' in this._data && Util.isPosInt(this._data['transitionDelay'])) ? this._data['transitionDelay'] : 0;
     }
 
     set transitionDelay(val) {
@@ -42,7 +40,7 @@ export default class ProductsCarouselSign extends Sign {
         obj._data = sign._data;
 
         if (obj._data && 'cards' in obj._data && Array.isArray(obj._data['cards'])) {
-            obj._data['_cards'] = obj._data['cards'].map((c) => Card.fromJSON(c));
+            obj._data['cards'] = obj._data['cards'].map((c) => Card.fromJSON(c));
         }
 
         return obj;

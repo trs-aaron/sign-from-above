@@ -19,8 +19,8 @@ const template = (props) => {
     return (
         <div className="tam-sign_products_card size-reg" data-has-logo={props.hasLogo} data-transp-bkgd={props.isBkgdTransp}>
             <div className="tam-sign_products_card_header">
-                <div className="tam-sign_products_card_logo"></div>
                 <div className="tam-sign_products_card_title">{props.title}</div>
+                <div className="tam-sign_products_card_logo"></div>
             </div>
             <div className="tam-sign_products_card_content">
                 {(props.info) && <CardInfo model={props.info} />}

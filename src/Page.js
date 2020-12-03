@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Template from 'templates/Page.js';
+import Template from 'templates/Page';
 
 
 class Page extends React.Component {

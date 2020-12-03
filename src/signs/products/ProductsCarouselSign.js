@@ -17,7 +17,8 @@ export default class ProductsSign extends React.Component {
         let props = {
             isVisible: this.state.isVisible,
             cardCnt: this.state.model.cardCount,
-            cards: this.state.model.cards
+            cards: this.state.model.cards,
+            transitionDelay: this.state.model.transitionDelay
         };
 
         return Template(props);

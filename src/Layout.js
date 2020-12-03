@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Api from 'util/Api';
 import Model from 'models/Layout';
-import Template from 'templates/Layout.js';
+import Template from 'templates/Layout';
 import Util from 'lib/tam/util/Util';
 
 

@@ -1,11 +1,9 @@
 @import 'sass/colors.scss';
 
 .tam-sign_products {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .tam-sign_products_bkgd {
@@ -25,13 +23,10 @@
     align-items: center;
     justify-content: flex-start;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    height: max-content;
-    max-height: 100%;
-    padding: 0 3rem;
-    transform: translateY(-50%);
+    left: 3rem;
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
     background: transparent;
 }
 
@@ -50,6 +45,32 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: space-evenly;
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    height: max-content;
+    max-height: 100%;
+    transform: translateY(-50%);
     font-size: 1.3rem;
+}
+
+.tam-sign_products_card-wrapper {
+    flex: 1;
+    flex-basis: 30em;
+    margin: 0 1em;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &.size-small {
+        flex-basis: 20em;
+    }
+
+    &.size-large {
+        flex-basis: 40em;
+    }
 }

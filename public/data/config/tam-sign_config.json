@@ -1,11 +1,29 @@
 {
-    "version": 1,
+    "version": "1",
     "screens": {
-        "screen-1": {
+        "sd-screen-1": {
             "id": "sd-screen-1",
             "name": "Sports Dome Screen 1",
             "deviceId": "fire-stick-1",
             "layoutId": "sports-desk-1-2-card"
+        },
+        "sd-screen-2": {
+            "id": "sd-screen-2",
+            "name": "Sports Dome Screen 2",
+            "deviceId": "fire-stick-3",
+            "layoutId": "sports-desk-1-1-card"
+        },
+        "cd-screen-1": {
+            "id": "cd-screen-1",
+            "name": "Canoe Dome Screen 1",
+            "deviceId": "fire-stick-4",
+            "layoutId": "sports-desk-1-3-card"
+        },
+        "cd-screen-2": {
+            "id": "cd-screen-2",
+            "name": "Canoe Dome Screen 2",
+            "deviceId": "fire-stick-2",
+            "layoutId": "sports-desk-1-4-card"
         }
     },
     "layouts": {
@@ -15,6 +33,30 @@
             "layoutName": "single",
             "signIds": [
                 "sports-desk-2"
+            ]
+        },
+        "sports-desk-1-1-card": {
+            "id": "sports-desk-1-2-card",
+            "name": "Sports Desk 1 Sign 1 Card",
+            "layoutName": "single",
+            "signIds": [
+                "sports-desk-1"
+            ]
+        },
+        "sports-desk-1-3-card": {
+            "id": "sports-desk-1-3-card",
+            "name": "Sports Desk 1 Sign 3 Cards",
+            "layoutName": "single",
+            "signIds": [
+                "sports-desk-3"
+            ]
+        },
+        "sports-desk-1-4-card": {
+            "id": "sports-desk-1-4-card",
+            "name": "Sports Desk 1 Sign 4 Cards",
+            "layoutName": "single",
+            "signIds": [
+                "sports-desk-4"
             ]
         }
     },
@@ -390,7 +432,7 @@
             "name": "Sports Desk 3 Card Carousel",
             "_typeId": "products-carousel",
             "_data": {
-                "transitionDelay": 1000,
+                "transitionDelay": 10000,
                 "cards": [
                     {
                         "hasLogo": true,
@@ -602,7 +644,7 @@
                     {
                         "hasLogo": false,
                         "isBkgdTransp": false,
-                        "title": "Express Cards",
+                        "title": "Daily Lift Tickets",
                         "info": {
                             "title": "Our most expensive and least flexible option",
                             "subTitle": "",
@@ -737,6 +779,222 @@
                                         "text": "$25"
                                     }
                                 ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "sports-desk-4": {
+            "Id": "sports-desk-4",
+            "name": "Sports Desk 4 Card Carousel",
+            "_typeId": "products-carousel",
+            "_data": {
+                "transitionDelay": 10000,
+                "cards": [
+                    {
+                        "hasLogo": true,
+                        "isBkgdTransp": false,
+                        "title": "Card 1",
+                        "info": {
+                            "title": "It comes preloaded with a lift ticket for your first day",
+                            "subTitle": "Then save $10 on up to 3 additional visits",
+                            "desc": "Comes on a plastic card with photo. Card is linked to your credit card. Go direct to the lift. No need to return to the ticket window."
+                        },
+                        "priceColCnt": 1,
+                        "products": [
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Adult (18-69)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$65"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Junior (7-11)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$24"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "hasLogo": false,
+                        "isBkgdTransp": true,
+                        "title": "Card 2",
+                        "info": null,
+                        "priceColCnt": 1,
+                        "products": [
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Family"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$269"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Adult (30-29)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$410"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "20 Something (18-29)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$269"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Teen (12-17)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$259"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Military"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$279"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Midweek"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$349"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Upgrade"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$349"
+                                    }
+                                ]
+                            }
+                        ],
+                        "disclaimers": [
+                            {
+                                "text": "*Prices do not include taxes and caf fees"
+                            }
+                        ]
+                    },
+                    {
+                        "hasLogo": false,
+                        "isBkgdTransp": false,
+                        "title": "Card 3",
+                        "info": {
+                            "title": "Our most expensive and least flexible option",
+                            "subTitle": "",
+                            "desc": "If you are looking for a daily ticket we recommend an express card"
+                        },
+                        "priceColCnt": 2,
+                        "products": [
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Senior (70+)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$49"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$35"
+                                    }
+                                ]
+                            },
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Discovery (Beginner Area)"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$25"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$25"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "hasLogo": false,
+                        "isBkgdTransp": true,
+                        "title": "Card 4",
+                        "info": null,
+                        "priceColCnt": 1,
+                        "products": [
+                            {
+                                "cols": [
+                                    {
+                                        "type": "title",
+                                        "text": "Family"
+                                    },
+                                    {
+                                        "type": "price",
+                                        "text": "$269"
+                                    }
+                                ]
+                            }
+                        ],
+                        "disclaimers": [
+                            {
+                                "text": "*Prices do not include taxes and caf fees"
                             }
                         ]
                     }

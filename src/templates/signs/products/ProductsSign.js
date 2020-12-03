@@ -13,7 +13,17 @@ const template = (props) => {
         <div className="tam-sign_products">
             <div className="tam-sign_products_bkgd"></div>
             <div className="tam-sign_products_ctnr" data-is-visible={props.isVisble} data-card-cnt={props.cardCnt}>
-                <div className="tam-sign_products_cards">{props.cards.map((c, i) => <Card key={i} model={c} />)}</div>
+                <div className="tam-sign_products_cards">
+                {
+                    props.cards.map((c, i) => {
+                        return (
+                            <div key={i} className="tam-sign_products_card-wrapper">
+                                <Card model={c} />
+                            </div>
+                        );
+                    })
+                }
+                </div>
             </div>
         </div>
     );

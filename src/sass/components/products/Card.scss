@@ -3,29 +3,13 @@
 .tam-sign_products_card {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    flex-basis: 30em;
-    margin: 0 1em;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     background-color: $neutral-off-white;
     -webkit-box-shadow: 0 0 2rem -1rem $neutral-dark;
     -moz-box-shadow: 0 0 2rem -1rem $neutral-dark;
     box-shadow: 0 0 2rem -1rem $neutral-dark;
-}
-
-.tam-sign_products_card:first-child {
-    margin-left: 0;
-}
-
-.tam-sign_products_card:last-child {
-    margin-right: 0;
-}
-
-.tam-sign_products_card.size-small {
-    flex-basis: 20em;
-}
-
-.tam-sign_products_card.size-large {
-    flex-basis: 40em;
 }
 
 .tam-sign_products_card[data-transp-bkgd="1"] {
