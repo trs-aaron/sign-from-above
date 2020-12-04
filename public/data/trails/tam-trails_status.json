@@ -1,11 +1,251 @@
 {
     "trails": {
-        "trl-w-waltz": {
-            "id": "trl-w-waltz",
-            "name": "Waltz",
+        "trl-w-adrenaline": {
+            "id": "trl-w-adrenaline",
+            "name": "Adrenaline",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-after-you": {
+            "id": "trl-w-after-you",
+            "name": "After You",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-bentwoods": {
+            "id": "trl-w-bentwoods",
+            "name": "Bentwoods",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-blaze": {
+            "id": "trl-w-blaze",
+            "name": "Blaze",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-buttercup": {
+            "id": "trl-w-buttercup",
+            "name": "Buttercup",
+            "type": "B",
+            "isOpen": true,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-canoe-ridge": {
+            "id": "trl-w-canoe-ridge",
+            "name": "Canoe Ridge",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-discovery": {
+            "id": "trl-w-discovery",
+            "name": "Discovery",
             "type": "B",
             "isOpen": true,
             "isGroomed": true,
+            "lastGroomed": null
+        },
+        "trl-w-tp-discovery": {
+            "id": "trl-w-tp-discovery",
+            "name": "Discovery Terrain Park",
+            "type": "TP",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-dropout": {
+            "id": "trl-w-dropout",
+            "name": "Dropout",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-enigma": {
+            "id": "trl-w-enigma",
+            "name": "Enigma",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-funnel": {
+            "id": "trl-w-funnel",
+            "name": "Funnel",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-hip-hop": {
+            "id": "trl-w-hip-hop",
+            "name": "Hip Hop",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-homestead": {
+            "id": "trl-w-homestead",
+            "name": "Homestead",
+            "type": "B",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tp-homestead": {
+            "id": "trl-w-tp-homestead",
+            "name": "Homestead Terrain Park",
+            "type": "TP",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-hoo-ya": {
+            "id": "trl-w-hoo-ya",
+            "name": "Hoo Ya!",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-la-bamba": {
+            "id": "trl-w-la-bamba",
+            "name": "La Bamba",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-la-bamba-cliffs": {
+            "id": "trl-w-la-bamba-cliffs",
+            "name": "La Bamba Cliffs",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-lower-bliss": {
+            "id": "trl-w-lower-bliss",
+            "name": "Lower Bliss",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-lower-encore": {
+            "id": "trl-w-lower-encore",
+            "name": "Lower Encore",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-lower-serenity": {
+            "id": "trl-w-lower-serenity",
+            "name": "Lower Serenity",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-lower-showtime": {
+            "id": "trl-w-lower-showtime",
+            "name": "Lower Showtime",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-lower-vista": {
+            "id": "trl-w-lower-vista",
+            "name": "Lower Vista",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-me-first": {
+            "id": "trl-w-me-first",
+            "name": "Me First",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-mid-mountain-way": {
+            "id": "trl-w-mid-mountain-way",
+            "name": "Mid Mountain Way",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-mystery-glades": {
+            "id": "trl-w-mystery-glades",
+            "name": "Mystery Glades",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tp-no-business": {
+            "id": "trl-w-tp-no-business",
+            "name": "No Business Terrain Park",
+            "type": "TP",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-oo-la-la": {
+            "id": "trl-w-oo-la-la",
+            "name": "Oo-La-La",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-panorama": {
+            "id": "trl-w-panorama",
+            "name": "Panorama",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-pursuit": {
+            "id": "trl-w-pursuit",
+            "name": "Pursuit",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-rock-creek": {
+            "id": "trl-w-rock-creek",
+            "name": "Rock Creek",
+            "type": "B",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-rumba": {
+            "id": "trl-w-rumba",
+            "name": "Rumba",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
             "lastGroomed": null
         },
         "trl-w-salsa": {
@@ -16,18 +256,130 @@
             "isGroomed": false,
             "lastGroomed": null
         },
+        "trl-w-showtime-return": {
+            "id": "trl-w-showtime-return",
+            "name": "Showtime Return",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-staircase": {
+            "id": "trl-w-staircase",
+            "name": "Staircase",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-sugarloaf": {
+            "id": "trl-w-sugarloaf",
+            "name": "Sugarloaf",
+            "type": "B",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tamarack": {
+            "id": "trl-w-tamarack",
+            "name": "Tamarack",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
         "trl-w-tango": {
             "id": "trl-w-tango",
             "name": "Tango",
             "type": "E",
-            "isOpen": true,
+            "isOpen": false,
             "isGroomed": false,
             "lastGroomed": null
         },
-        "trl-w-tp-discovery": {
-            "id": "trl-w-tp-discovery",
-            "name": "Discovery Terrain Park",
-            "type": "TP",
+        "trl-w-the-grove": {
+            "id": "trl-w-the-grove",
+            "name": "The Grove",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-the-spine": {
+            "id": "trl-w-the-spine",
+            "name": "The Spine",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tula-tracks": {
+            "id": "trl-w-tula-tracks",
+            "name": "Tula Tracks",
+            "type": "B",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-upper-bliss": {
+            "id": "trl-w-upper-bliss",
+            "name": "Upper Bliss",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-upper-encore": {
+            "id": "trl-w-upper-encore",
+            "name": "Upper Encore",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-upper-serenity": {
+            "id": "trl-w-upper-serenity",
+            "name": "Upper Serenity",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-upper-showtime": {
+            "id": "trl-w-upper-showtime",
+            "name": "Upper Showtime",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-upper-vista": {
+            "id": "trl-w-upper-vista",
+            "name": "Upper Vista",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-waltz": {
+            "id": "trl-w-waltz",
+            "name": "Waltz",
+            "type": "B",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-wahoo!": {
+            "id": "trl-w-wahoo!",
+            "name": "Wahoo!",
+            "type": "E",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-wildwood-way": {
+            "id": "trl-w-wildwood-way",
+            "name": "Wildwood Way",
+            "type": "I",
             "isOpen": false,
             "isGroomed": false,
             "lastGroomed": null

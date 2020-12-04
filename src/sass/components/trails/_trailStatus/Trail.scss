@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     height: max-content;
-    margin: 0;
+    margin: 0.75rem 0;
 }
 
 .tam-sign_trail-status_trail_type {
@@ -18,19 +18,19 @@
     background-size: contain;
 
     &[data-trail-type="B"] {
-        background-image: url('/assets/svg/trail-beginner-icon.svg');
+        background-image: url('/assets/svg/icon_trail-beginner.svg');
     }
 
     &[data-trail-type="I"] {
-        background-image: url('/assets/svg/trail-intermediate-icon.svg');
+        background-image: url('/assets/svg/icon_trail-intermediate.svg');
     }
 
     &[data-trail-type="E"] {
-        background-image: url('/assets/svg/trail-expert-icon.svg');
+        background-image: url('/assets/svg/icon_trail-expert.svg');
     }
 
     &[data-trail-type="TP"] {
-        background-image: url('/assets/svg/trail-terrain-park-icon.svg');
+        background-image: url('/assets/svg/icon_trail-terrain-park.svg');
     }
 }
 
@@ -45,13 +45,24 @@
 }
 
 .tam-sign_trail-status_trail_groomed {
-    width: 0.8rem;
-    height: 0.8rem;
-    margin: 1rem 0;
+    width: 1.4rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    background-image: url('/assets/svg/icon_snow-cat.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity linear 600ms;
+
+    &[data-is-visible="1"] {
+        opacity: 1;
+    }
 }
 
 .tam-sign_trail-status_trail_status {
-    width: 4em;
+    width: 3rem;
+    margin-left: 0.5rem;
     font-size: 0.9rem;
     font-weight: 900;
     font-variant: all-small-caps;
