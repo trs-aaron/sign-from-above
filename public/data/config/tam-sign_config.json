@@ -7,6 +7,12 @@
             "deviceId": "fire-stick-1",
             "layoutId": "winter-trail-status"
         },
+        "sd-west-entrance-alt": {
+            "id": "sd-west-entrance-alt",
+            "name": "Sports Dome West Entrance",
+            "deviceId": "fire-stick-5",
+            "layoutId": "winter-trail-map"
+        },
         "sd-ticket-1": {
             "id": "sd-ticket-1",
             "name": "Sports Ticket 1",
@@ -33,6 +39,14 @@
             "layoutName": "trail-status",
             "signIds": [
                 "winter-trail-map"
+            ]
+        },
+        "winter-trail-map": {
+            "id": "winter-trail-status",
+            "name": "Winter Trail Status",
+            "layoutName": "single",
+            "signIds": [
+                "winter-trail-map-contain"
             ]
         },
         "ticket-pass-carousel": {
@@ -62,10 +76,19 @@
     },
     "signs": {
         "winter-trail-map": {
-            "id": "trail-map",
-            "name": "Trail Map",
+            "id": "winter-trail-map",
+            "name": "Winter Trail Map",
             "_typeId": "vector",
             "_data": {
+                "assetName": "winter-trail-map"
+            }
+        },
+        "winter-trail-map-contain": {
+            "id": "winter-trail-map",
+            "name": "Winter Trail Map",
+            "_typeId": "vector",
+            "_data": {
+                "contain": true,
                 "assetName": "winter-trail-map"
             }
         },

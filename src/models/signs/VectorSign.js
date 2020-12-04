@@ -14,6 +14,10 @@ export default class VectorSign extends Sign {
         this._vector = null;
     }
 
+    get contain() {
+        return ('contain' in this._data && this._data['contain'] === true);
+    }
+
     get assetName() {
         return ('assetName' in this._data && Util.isNonEmptyString(this._data['assetName'])) ? this._data['assetName'] : null;
     }

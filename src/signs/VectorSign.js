@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Util from 'lib/tam/util/Util';
 import Model from 'models/signs/VectorSign'
 import Template from 'templates/signs/VectorSign';
 
@@ -28,8 +29,14 @@ class VectorSign extends React.Component {
     render() {
         let props = {
             isVisible: this.state.isVisible,
-            vectorPath: (this.props.model) ? this.props.model.vectorPath : null
+            contain: false,
+            vectorPath: null
         };
+
+        if (this.props.model) {
+            props.contain = (this.props.model.contain === true);
+            props.vectorPath = (Util.isNonEmptyString(this.props.model.vectorPath)) ? this.props.model.vectorPath : null;
+        }
 
         return Template(props);
     }
@@ -37,11 +44,13 @@ class VectorSign extends React.Component {
 
 VectorSign.defaultProps = {
     isVisible: true,
+    contain: false,
     model: null
 };
 
 VectorSign.propTypes = {
     isVisible: PropTypes.bool,
+    contain: PropTypes.bool,
     model: PropTypes.instanceOf(Model)
 };
 

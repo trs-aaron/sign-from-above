@@ -5,6 +5,12 @@
     height: 100%;
     width: 100%;
     background-color: transparent;
+
+    &[data-contain="1"] {
+        .tam-sign_vector_img{
+            background-size: contain;
+        }
+    }
 }
 
 .tam-sign_vector_cntr {
