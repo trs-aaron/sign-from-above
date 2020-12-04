@@ -5,6 +5,7 @@ import * as styles from 'sass/Layout.scss';
 
 // Layouts
 import SingleLayout from 'layouts/SingleLayout';
+import TrailStatusLayout from 'layouts/TrailStatusLayout';
 
 
 const template = (props) => {
@@ -20,6 +21,10 @@ const template = (props) => {
     switch(props.layoutName) {
         case Model.NAMES.SINGLE:
             Layout = () => <SingleLayout signIds={props.signIds} />;
+            break;
+
+        case Model.NAMES.TRAIL_STATUS:
+            Layout = () => <TrailStatusLayout signIds={props.signIds} />;
             break;
     }
 

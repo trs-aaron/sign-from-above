@@ -82,7 +82,8 @@ class Layout {
 }
 
 Layout.NAMES = {
-    SINGLE: 'single'
+    SINGLE: 'single',
+    TRAIL_STATUS: 'trail-status'
 };
 
 

@@ -36,7 +36,7 @@
         "winter-trail-status": {
             "id": "winter-trail-status",
             "name": "Winter Trail Status",
-            "layoutName": "single",
+            "layoutName": "trail-status",
             "signIds": [
                 "winter-trail-map"
             ]

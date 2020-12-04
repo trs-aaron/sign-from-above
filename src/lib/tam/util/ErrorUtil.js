@@ -27,6 +27,7 @@ class ErrorUtil {
 ErrorUtil.MSG = {
     VALUE_TYPE: {
         OBJECT: 'Expected Object.',
+        ARRAY: 'Expected array.',
         BOOL: 'Expected boolean.',
         STRING: 'Expected string.',
         STRING_OR_NULL: 'Expected string or null.',

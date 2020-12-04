@@ -1,0 +1,36 @@
+{
+    "trails": {
+        "trl-w-waltz": {
+            "id": "trl-w-waltz",
+            "name": "Waltz",
+            "type": "B",
+            "isOpen": true,
+            "isGroomed": true,
+            "lastGroomed": null
+        },
+        "trl-w-salsa": {
+            "id": "trl-w-salsa",
+            "name": "Salsa",
+            "type": "I",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tango": {
+            "id": "trl-w-tango",
+            "name": "Tango",
+            "type": "E",
+            "isOpen": true,
+            "isGroomed": false,
+            "lastGroomed": null
+        },
+        "trl-w-tp-discovery": {
+            "id": "trl-w-tp-discovery",
+            "name": "Discovery Terrain Park",
+            "type": "TP",
+            "isOpen": false,
+            "isGroomed": false,
+            "lastGroomed": null
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import 'sass/colors.scss';
+
+.tam-sign_trail-status_trail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    margin: 0;
+}
+
+.tam-sign_trail-status_trail_type {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 1rem;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &[data-trail-type="B"] {
+        background-image: url('/assets/svg/trail-beginner-icon.svg');
+    }
+
+    &[data-trail-type="I"] {
+        background-image: url('/assets/svg/trail-intermediate-icon.svg');
+    }
+
+    &[data-trail-type="E"] {
+        background-image: url('/assets/svg/trail-expert-icon.svg');
+    }
+
+    &[data-trail-type="TP"] {
+        background-image: url('/assets/svg/trail-terrain-park-icon.svg');
+    }
+}
+
+.tam-sign_trail-status_trail_name {
+    flex: 1;
+    height: max-content;
+    font-size: 1rem;
+    font-weight: 500;
+    font-variant: small-caps;
+    letter-spacing: 0.125rem;
+    color: $neutral-off-white;
+}
+
+.tam-sign_trail-status_trail_groomed {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 1rem 0;
+}
+
+.tam-sign_trail-status_trail_status {
+    width: 4em;
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-variant: all-small-caps;
+    letter-spacing: 0.1rem;
+    text-align: right;
+    color: $trail-red;
+
+    &[data-is-open="1"] {
+        color: $trail-green;
+    }
+}
