@@ -4,37 +4,43 @@ $transition-duration: 1500ms;
 .tam-sign_carousel_content-cntr {
     position: absolute;
     top: 0;
-    left: 110%;
+    left: 0;
     right: auto;
     height: 100%;
     width: 50%;
     opacity: 0;
     will-change: left, opacity;
-    transform: translateZ(0);
+    -webkit-transform: translateX(201%);
+    transform: translateX(201%);
+    -webkit-transition: all $transition-duration ease-in-out $transition-delay;
+    transition: all $transition-duration ease-in-out $transition-delay;
 
     &[data-position="Q"] {
-        left: 100%;
+        -webkit-transition: none;
+        transition: none;
     }
 
     &[data-position="OD"] {
-        left: 100%;
+        opacity: 1;
+        -webkit-transition: none;
+        transition: none;
     }
 
     &[data-position="P1"] {
         opacity: 1;
-        left: 50%;
-        transition: left $transition-duration ease-in-out $transition-delay;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
     }
 
     &[data-position="P2"] {
         opacity: 1;
-        left: 0;
-        transition: left $transition-duration ease-in-out $transition-delay;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
 
     &[data-position="X"] {
         opacity: 1;
-        left: -50%;
-        transition: left $transition-duration ease-in-out $transition-delay;
+        -webkit-transform: translateX(-101%);
+        transform: translateX(-101%);
     }
 }
