@@ -30,6 +30,12 @@
             "name": "Sports Ticket 3",
             "deviceId": "fire-stick-4",
             "layoutId": "day-tickets"
+        },
+        "dev-1": {
+            "id": "dev-1",
+            "name": "Development 1",
+            "deviceId": "2afe82713992d166",
+            "layoutId": "winter-trail-status"
         }
     },
     "layouts": {
@@ -97,7 +103,7 @@
             "name": "Boundless Pass, Express Cards & Day Tickets",
             "_typeId": "products-carousel",
             "_data": {
-                "transitionDelay": 7000,
+                "transitionDelay": 12000,
                 "cards": [
                     {
                         "hasLogo": true,
