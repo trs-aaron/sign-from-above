@@ -3,33 +3,45 @@
     "screens": {
         "sd-west-entrance": {
             "id": "sd-west-entrance",
-            "name": "Sports Dome West Entrance",
-            "deviceId": "fire-stick-1",
+            "name": "SD West Entrance",
+            "deviceId": "713d26958f01cec7",
             "layoutId": "winter-trail-status"
-        },
-        "sd-west-entrance-alt": {
-            "id": "sd-west-entrance-alt",
-            "name": "Sports Dome West Entrance",
-            "deviceId": "fire-stick-5",
-            "layoutId": "winter-trail-map"
         },
         "sd-ticket-1": {
             "id": "sd-ticket-1",
-            "name": "Sports Ticket 1",
-            "deviceId": "fire-stick-2",
+            "name": "SD Ticket 1",
+            "deviceId": "bfa46d09d513cfac",
             "layoutId": "ticket-pass-carousel"
         },
         "sd-ticket-2": {
             "id": "sd-ticket-2",
-            "name": "Sports Ticket 2",
-            "deviceId": "fire-stick-3",
-            "layoutId": "boundless-pass-express-cards"
+            "name": "SD Ticket 2",
+            "deviceId": "61abf71149168929",
+            "layoutId": "ticket-pass-carousel"
         },
-        "sd-ticket-3": {
-            "id": "sd-ticket-3",
-            "name": "Sports Ticket 3",
-            "deviceId": "fire-stick-4",
-            "layoutId": "day-tickets"
+        "sd-rentals-1": {
+            "id": "sd-rentals-1",
+            "name": "SD Rentals 1",
+            "deviceId": "77658cf94cfa7707",
+            "layoutId": ""
+        },
+        "cd-rentals-1": {
+            "id": "cd-rentals-1",
+            "name": "CD Rentals 1",
+            "deviceId": "1127a762745bdc2c",
+            "layoutId": ""
+        },
+        "sd-sports-school-1": {
+            "id": "sd-sports-school-1",
+            "name": "Sports School 1",
+            "deviceId": "d5a9e30070bbc669",
+            "layoutId": ""
+        },
+        "sd-sports-school-2": {
+            "id": "sd-sports-school-2",
+            "name": "Sports School 2",
+            "deviceId": "2c5cdff6a37db171",
+            "layoutId": ""
         },
         "dev-1": {
             "id": "dev-1",
