@@ -3,6 +3,7 @@
 .tam-sign_products_card {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -52,7 +53,7 @@
 
 .tam-sign_products_card_title {
     position: relative;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-align: center;
@@ -74,4 +75,8 @@
 
 .tam-sign_products_card_products[data-price-cols="2"] {
     grid-template-columns: 1fr max-content max-content;
+}
+
+.tam-sign_products_card_products[data-price-cols="3"] {
+    grid-template-columns: 1fr max-content max-content max-content;
 }

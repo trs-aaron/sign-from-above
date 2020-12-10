@@ -43,7 +43,7 @@ class Layout extends React.Component {
     render() {
         let props = {
             id: (Util.isNonEmptyString(this.props.idType) && this.props.idType === Layout.ID_TYPE.LAYOUT) ? this.props.id : null,
-            layoutName: Model.NAMES.SINGLE,
+            layoutName: null,
             isVisible: this.props.isVisible,
             signIds: null
         };
