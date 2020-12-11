@@ -36,7 +36,7 @@
             "id": "trl-w-buttercup",
             "name": "Buttercup",
             "type": "B",
-            "isOpen": true,
+            "isOpen": false,
             "isGroomed": false,
             "lastGroomed": null
         },
@@ -52,8 +52,8 @@
             "id": "trl-w-discovery",
             "name": "Discovery",
             "type": "B",
-            "isOpen": true,
-            "isGroomed": true,
+            "isOpen": false,
+            "isGroomed": false,
             "lastGroomed": null
         },
         "trl-w-tp-discovery": {

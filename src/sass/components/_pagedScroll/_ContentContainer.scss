@@ -1,0 +1,12 @@
+$transition-delay: 800ms;
+
+.tam-sign_paged-scroll_content-cntr {
+    width: 100%;
+    height: max-content;
+    opacity: 0;
+    transition: opacity linear $transition-delay;
+
+    &[data-visible="1"] {
+        opacity: 1;
+    }
+}

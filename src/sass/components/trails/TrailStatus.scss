@@ -1,9 +1,12 @@
 .tam-sign_trail-status {
+    position: relative;
     height: 100%;
-    padding: 1rem 2rem;
 }
 
 .tam-sign_trail-status_trails {
-    height: 100%;
-    margin: auto 0;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    bottom: 1rem;
+    right: 2rem;
 }
