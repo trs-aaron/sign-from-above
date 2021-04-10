@@ -1,6 +1,6 @@
 @import 'sass/colors.scss';
 
-.tam-sign_products_card {
+.sign_products_card {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -13,11 +13,11 @@
     box-shadow: 0 0 2rem -1rem $neutral-dark;
 }
 
-.tam-sign_products_card[data-transp-bkgd="1"] {
+.sign_products_card[data-transp-bkgd="1"] {
     background-color: transparent;
 }
 
-.tam-sign_products_card_header {
+.sign_products_card_header {
     position: relative;
     box-sizing: border-box;
     width: 100%;
@@ -25,33 +25,33 @@
     background-color: $orange;
 }
 
-.tam-sign_products_card[data-has-logo="1"] {
-    .tam-sign_products_card_logo {
+.sign_products_card[data-has-logo="1"] {
+    .sign_products_card_logo {
         display: block;
     }
 }
 
-.tam-sign_products_card[data-transp-bkgd="1"] {
-     .tam-sign_products_card_content {
+.sign_products_card[data-transp-bkgd="1"] {
+     .sign_products_card_content {
         border: 1px solid rgba($neutral-dark,0.4);
         border-top: none;
      }
 }
 
-.tam-sign_products_card_logo {
+.sign_products_card_logo {
     display: none;
     position: absolute;
     left: 2em;
     bottom: -0.75em;
     width: 4em;
     height: 4em;
-    background-image: url(/assets/svg/tam-compass.svg);
+    background-image: url(/assets/svg/compass.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.tam-sign_products_card_title {
+.sign_products_card_title {
     position: relative;
     font-size: 1.5em;
     font-weight: 700;
@@ -61,22 +61,22 @@
     color: $neutral-off-white;
 }
 
-.tam-sign_products_card_content {
+.sign_products_card_content {
     flex: 1;
     padding: 1.5em;
 }
 
-.tam-sign_products_card_products {
+.sign_products_card_products {
     display: grid;
     grid-template-columns: 1fr max-content;
     grid-auto-rows: max-content;
     grid-gap: 1em;
 }
 
-.tam-sign_products_card_products[data-price-cols="2"] {
+.sign_products_card_products[data-price-cols="2"] {
     grid-template-columns: 1fr max-content max-content;
 }
 
-.tam-sign_products_card_products[data-price-cols="3"] {
+.sign_products_card_products[data-price-cols="3"] {
     grid-template-columns: 1fr max-content max-content max-content;
 }

@@ -1,6 +1,6 @@
 @import 'sass/colors.scss';
 
-.tam-sign_layout_trail-status {
+.sign_layout_trail-status {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -13,13 +13,13 @@
     overflow: hidden;
 }
 
-.tam-sign_layout_trail-status_sign {
+.sign_layout_trail-status_sign {
     flex: 1;
     height: 100%;
     overflow: hidden;
 }
 
-.tam-sign_layout_trail-status_trails {
+.sign_layout_trail-status_trails {
     height: 100%;
     width: 22rem;
     background-color: $blue-dark;

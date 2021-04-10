@@ -11,8 +11,8 @@ const template = (props) => {
     };
 
     return (
-        <div ref={props.ref} className="tam-sign_paged-scroll">
-            <div ref={props.itemsRef} className="tam-sign_paged-scroll_items">
+        <div ref={props.ref} className="sign_paged-scroll">
+            <div ref={props.itemsRef} className="sign_paged-scroll_items">
                 {
                     props.items.map((item, i) => {
                         return <ContentContainer ref={item.ref} key={i}>{item.component}</ContentContainer>;

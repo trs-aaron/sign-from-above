@@ -1,5 +1,5 @@
 import ContentContainer from 'components/_carousel/_ContentContainer';
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import * as styles from 'sass/components/Carousel.scss';
 
 
@@ -15,7 +15,7 @@ const template = (props) => {
 
 
     return (
-        <div className="tam-sign_carousel" data-visible-cntr-cnt={props.visibleCntrCnt}>
+        <div className="sign_carousel" data-visible-cntr-cnt={props.visibleCntrCnt}>
         {
             props.children.map((c, i) => {
                 if (i === props.pos2CntrIndex) {

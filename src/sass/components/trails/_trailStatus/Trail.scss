@@ -1,6 +1,6 @@
 @import 'sass/colors.scss';
 
-.tam-sign_trail-status_trail {
+.sign_trail-status_trail {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,7 +8,7 @@
     margin: 0.75rem 0;
 }
 
-.tam-sign_trail-status_trail_type {
+.sign_trail-status_trail_type {
     width: 0.8rem;
     height: 0.8rem;
     margin-right: 1rem;
@@ -34,7 +34,7 @@
     }
 }
 
-.tam-sign_trail-status_trail_name {
+.sign_trail-status_trail_name {
     flex: 1;
     height: max-content;
     font-size: 1rem;
@@ -44,7 +44,7 @@
     color: $neutral-off-white;
 }
 
-.tam-sign_trail-status_trail_groomed {
+.sign_trail-status_trail_groomed {
     width: 1.4rem;
     height: 1.2rem;
     margin-left: 1rem;
@@ -60,7 +60,7 @@
     }
 }
 
-.tam-sign_trail-status_trail_status {
+.sign_trail-status_trail_status {
     width: 3rem;
     margin-left: 0.5rem;
     font-size: 0.9rem;

@@ -1,4 +1,4 @@
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
 import Sign from 'models/Sign';
 import ProductsSign from 'models/signs/products/ProductsSign';
 import ProductsCarouselSign from 'models/signs/products/ProductsCarouselSign';

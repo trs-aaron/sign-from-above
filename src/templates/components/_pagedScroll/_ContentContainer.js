@@ -9,7 +9,7 @@ const template = (props) => {
     };
 
     return (
-        <div ref={props.ref} className="tam-sign_paged-scroll_content-cntr" data-visible={props.visible}>
+        <div ref={props.ref} className="sign_paged-scroll_content-cntr" data-visible={props.visible}>
             {props.children}
         </div>
     );

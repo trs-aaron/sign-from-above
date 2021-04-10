@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Template from 'templates/components/Carousel';
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 
 
 class Carousel extends React.Component {

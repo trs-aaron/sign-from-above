@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import Card from 'components/products/Card';
 import * as styles from 'sass/signs/products/ProductsSign.scss';
 
@@ -11,14 +11,14 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_products">
-            <div className="tam-sign_products_bkgd"></div>
-            <div className="tam-sign_products_ctnr" data-is-visible={props.isVisble} data-card-cnt={props.cardCnt}>
-                <div className="tam-sign_products_cards">
+        <div className="sign_products">
+            <div className="sign_products_bkgd"></div>
+            <div className="sign_products_ctnr" data-is-visible={props.isVisble} data-card-cnt={props.cardCnt}>
+                <div className="sign_products_cards">
                 {
                     props.cards.map((c, i) => {
                         return (
-                            <div key={i} className="tam-sign_products_card-wrapper">
+                            <div key={i} className="sign_products_card-wrapper">
                                 <Card model={c} />
                             </div>
                         );

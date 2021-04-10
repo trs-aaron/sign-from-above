@@ -1,5 +1,5 @@
-import Util from 'lib/tam/util/Util';
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
+import Util from 'lib/common/util/Util';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
 import CardInfo from 'models/components/products/_card/_CardInfo';
 import Disclaimer from 'models/components/products/_card/_Disclaimer';
 import Product from 'models/components/products/_card/_Product';

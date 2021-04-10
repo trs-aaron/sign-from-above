@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import * as styles from 'sass/Page.scss';
 
 
@@ -9,7 +9,7 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_page" data-is-visible={props.isVisble}>
+        <div className="sign_page" data-is-visible={props.isVisble}>
             {props.children}
         </div>
     );

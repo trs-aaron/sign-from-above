@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import Card from 'components/products/Card';
 import Carousel from 'components/Carousel';
 import * as styles from 'sass/signs/products/ProductsCarouselSign.scss';
@@ -13,15 +13,15 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_products-carousel">
-            <div className="tam-sign_products-carousel_bkgd"></div>
-            <div className="tam-sign_products-carousel_ctnr" data-is-visible={props.isVisble} data-card-cnt={props.cardCnt}>
-                <div className="tam-sign_products-carousel_cards">
+        <div className="sign_products-carousel">
+            <div className="sign_products-carousel_bkgd"></div>
+            <div className="sign_products-carousel_ctnr" data-is-visible={props.isVisble} data-card-cnt={props.cardCnt}>
+                <div className="sign_products-carousel_cards">
                     <Carousel autoRotate={true} transitionDelay={props.transitionDelay}>
                     {
                         props.cards.map((c, i) => {
                             return (
-                                <div key={i} className="tam-sign_products-carousel_card-wrapper">
+                                <div key={i} className="sign_products-carousel_card-wrapper">
                                     <Card model={c} />
                                 </div>
                             );

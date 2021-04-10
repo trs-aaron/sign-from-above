@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import * as styles from 'sass/components/trails/_trailStatus/Trail.scss';
 
 
@@ -13,11 +13,11 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_trail-status_trail">
-            <div className="tam-sign_trail-status_trail_type" data-trail-type={props.type}></div>
-            <div className="tam-sign_trail-status_trail_name">{props.name}</div>
-            <div className="tam-sign_trail-status_trail_groomed" data-is-visible={props.isGroomed}></div>
-            <div className="tam-sign_trail-status_trail_status" data-is-open={props.isOpen}>{props.status}</div>
+        <div className="sign_trail-status_trail">
+            <div className="sign_trail-status_trail_type" data-trail-type={props.type}></div>
+            <div className="sign_trail-status_trail_name">{props.name}</div>
+            <div className="sign_trail-status_trail_groomed" data-is-visible={props.isGroomed}></div>
+            <div className="sign_trail-status_trail_status" data-is-open={props.isOpen}>{props.status}</div>
         </div>
     );
 };

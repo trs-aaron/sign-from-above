@@ -1,7 +1,7 @@
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
-import Util from 'lib/tam/util/Util';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
+import Util from 'lib/common/util/Util';
 import Sign from 'models/Sign';
-import Vector from 'lib/tam/models/Vector';
+import Vector from 'lib/common/models/Vector';
 
 
 export default class VectorSign extends Sign {

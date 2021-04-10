@@ -1,8 +1,8 @@
 <?php
 class Util { 
     private static $configFolderPath = '/../data/config/';
-    private static $configFileName = 'tam-sign_config.json';
-    private static $configBaseFileName = 'tam-sign_config_base.json';
+    private static $configFileName = 'sign_config.json';
+    private static $configBaseFileName = 'sign_config_base.json';
 
     public static function get_config() {
         $path = dirname(__FILE__).Util::$configFolderPath.Util::$configFileName;

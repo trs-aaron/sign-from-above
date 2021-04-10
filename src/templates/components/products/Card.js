@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import CardInfo from 'components/products/_card/_CardInfo';
 import Disclaimer from 'components/products/_card/_Disclaimer';
 import Product from 'components/products/_card/_Product';
@@ -17,17 +17,17 @@ const template = (props) => {
     }
 
     return (
-        <div className="tam-sign_products_card size-reg" data-has-logo={props.hasLogo} data-transp-bkgd={props.isBkgdTransp}>
-            <div className="tam-sign_products_card_header">
-                <div className="tam-sign_products_card_title">{props.title}</div>
-                <div className="tam-sign_products_card_logo"></div>
+        <div className="sign_products_card size-reg" data-has-logo={props.hasLogo} data-transp-bkgd={props.isBkgdTransp}>
+            <div className="sign_products_card_header">
+                <div className="sign_products_card_title">{props.title}</div>
+                <div className="sign_products_card_logo"></div>
             </div>
-            <div className="tam-sign_products_card_content">
+            <div className="sign_products_card_content">
                 {(props.info) && <CardInfo model={props.info} />}
-                <div className="tam-sign_products_card_products" data-price-cols={props.priceColCnt}>
+                <div className="sign_products_card_products" data-price-cols={props.priceColCnt}>
                     {props.products.map((p, i) => <Product key={i} model={p} />)}
                 </div>
-                <div className="tam-sign_products_card_disclaimers">
+                <div className="sign_products_card_disclaimers">
                     {props.disclaimers.map((d, i) => <Disclaimer key={i} model={d} />)}
                 </div>
             </div>

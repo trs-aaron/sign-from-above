@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import * as styles from 'sass/signs/VectorSign.scss';
 
 
@@ -11,9 +11,9 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_vector" data-contain={props.contain}>
-            <div className="tam-sign_vector_cntr">
-                <div className="tam-sign_vector_img" style={{backgroundImage: "url(" + props.vectorPath + ")"}}/>
+        <div className="sign_vector" data-contain={props.contain}>
+            <div className="sign_vector_cntr">
+                <div className="sign_vector_img" style={{backgroundImage: "url(" + props.vectorPath + ")"}}/>
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Template from 'templates/components/_carousel/_ContentContainer';
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 
 
 class ContentContainer extends React.Component {

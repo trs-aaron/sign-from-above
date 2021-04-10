@@ -1,14 +1,14 @@
 @import 'sass/colors.scss';
 @import 'sass/gradients.scss';
 
-.tam-sign_products-carousel {
+.sign_products-carousel {
     position: relative;
     height: 100%;
     width: 100%;
     background-color: $neutral-off-white;
 }
 
-.tam-sign_products-carousel_bkgd {
+.sign_products-carousel_bkgd {
     position: absolute;
     left: 0;
     top: 0;
@@ -17,7 +17,7 @@
     background: $gradient-orange-1;
 }
 
-.tam-sign_products-carousel_ctnr {
+.sign_products-carousel_ctnr {
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -27,11 +27,11 @@
     background: transparent;
 }
 
-.tam-sign_products-carousel_ctnr[data-card-cnt="1"] {
+.sign_products-carousel_ctnr[data-card-cnt="1"] {
     padding: 0 20rem;
 }
 
-.tam-sign_products-carousel_cards {
+.sign_products-carousel_cards {
     position: absolute;
     left: 0;
     top: 50%;

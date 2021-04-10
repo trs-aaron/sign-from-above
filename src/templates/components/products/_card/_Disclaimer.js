@@ -7,7 +7,7 @@ const template = (props) => {
     }
 
     return (
-        <div className="tam-sign_products_card_disclaimer">{props.text}</div>
+        <div className="sign_products_card_disclaimer">{props.text}</div>
     );
 };
 

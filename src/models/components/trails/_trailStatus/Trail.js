@@ -1,5 +1,5 @@
-import Util from 'lib/tam/util/Util';
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
+import Util from 'lib/common/util/Util';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
 
 
 class Trail {

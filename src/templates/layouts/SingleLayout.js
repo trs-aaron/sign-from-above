@@ -8,7 +8,7 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_layout_single">
+        <div className="sign_layout_single">
             {props.signIds.map((id) => <Sign key={id} id={id} />)}
         </div>
     );

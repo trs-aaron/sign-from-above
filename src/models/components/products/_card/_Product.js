@@ -1,4 +1,4 @@
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
 import ProductCol from 'models/components/products/_card/_ProductCol';
 
 

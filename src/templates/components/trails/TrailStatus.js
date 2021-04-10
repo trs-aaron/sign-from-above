@@ -10,8 +10,8 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_trail-status">
-            <div className="tam-sign_trail-status_trails">
+        <div className="sign_trail-status">
+            <div className="sign_trail-status_trails">
                 <PagedScroll autoScroll={true}>
                     {
                         props.trails.map((t, i) => (

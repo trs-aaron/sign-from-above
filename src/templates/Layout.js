@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import Page from 'Page';
 import Model from 'models/Layout';
 import * as styles from 'sass/Layout.scss';
@@ -30,7 +30,7 @@ const template = (props) => {
 
     return (
         <Page>
-            <div className="tam-sign_layout" data-id={props.id} data-is-visible={props.isVisible}>
+            <div className="sign_layout" data-id={props.id} data-is-visible={props.isVisible}>
                 <Layout />
             </div>
         </Page>

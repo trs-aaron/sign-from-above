@@ -1,6 +1,6 @@
 import Api from 'util/Api';
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
-import Util from 'lib/tam/util/Util';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
+import Util from 'lib/common/util/Util';
 import Layout from 'Layout';
 import LayoutModel from 'models/Layout';
 

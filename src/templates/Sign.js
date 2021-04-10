@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import Model from 'models/Sign';
 import * as styles from 'sass/Sign.scss';
 
@@ -32,7 +32,7 @@ const template = (props) => {
     }
 
     return (
-        <div className="tam-sign_sign" data-id={props.id} data-is-visible={props.isVisble}>
+        <div className="sign_sign" data-id={props.id} data-is-visible={props.isVisble}>
             <Sign />
         </div>
     );

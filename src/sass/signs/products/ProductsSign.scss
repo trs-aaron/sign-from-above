@@ -1,14 +1,14 @@
 @import 'sass/colors.scss';
 @import 'sass/gradients.scss';
 
-.tam-sign_products {
+.sign_products {
     position: relative;
     height: 100%;
     width: 100%;
     background-color: $neutral-off-white;
 }
 
-.tam-sign_products_bkgd {
+.sign_products_bkgd {
     position: absolute;
     left: 0;
     top: 0;
@@ -17,7 +17,7 @@
     background: $gradient-orange-1;
 }
 
-.tam-sign_products_ctnr {
+.sign_products_ctnr {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -31,17 +31,17 @@
     background: transparent;
 }
 
-.tam-sign_products_ctnr[data-card-cnt="1"] {
+.sign_products_ctnr[data-card-cnt="1"] {
     padding: 0 20rem;
 }
 
-.tam-sign_products_ctnr[data-card-cnt="3"] {
-    .tam-sign_products_cards {
+.sign_products_ctnr[data-card-cnt="3"] {
+    .sign_products_cards {
         font-size: 0.9rem;
     }
 }
 
-.tam-sign_products_cards {
+.sign_products_cards {
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -54,7 +54,7 @@
     font-size: 1.3rem;
 }
 
-.tam-sign_products_card-wrapper {
+.sign_products_card-wrapper {
     flex: 1;
     flex-basis: 30em;
     margin: 0 1em;

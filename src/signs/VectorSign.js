@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import Model from 'models/signs/VectorSign'
 import Template from 'templates/signs/VectorSign';
 

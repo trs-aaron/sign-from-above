@@ -8,7 +8,7 @@ const template = (props) => {
     }
 
     return (
-        <div className="tam-sign_products_card_product">{props.cols.map((c, i) => <ProductCol key={i} model={c} />)}</div>
+        <div className="sign_products_card_product">{props.cols.map((c, i) => <ProductCol key={i} model={c} />)}</div>
     );
 };
 

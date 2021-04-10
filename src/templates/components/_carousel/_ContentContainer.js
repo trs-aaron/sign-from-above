@@ -9,7 +9,7 @@ const template = (props) => {
     };
 
     return (
-        <div className="tam-sign_carousel_content-cntr" data-position={props.position}>
+        <div className="sign_carousel_content-cntr" data-position={props.position}>
             {props.children}
         </div>
     );

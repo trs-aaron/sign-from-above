@@ -1,4 +1,4 @@
-import Util from 'lib/tam/util/Util';
+import Util from 'lib/common/util/Util';
 import * as styles from 'sass/components/products/_card/_CardInfo.scss';
 
 
@@ -10,10 +10,10 @@ const template = (props) => {
     }
 
     return(
-        <div className="tam-sign_products_card_info">
-            <div className="tam-sign_products_card_info_title">{props.title}</div>
-            <div className="tam-sign_products_card_info_sub-title">{props.subTitle}</div>
-            <div className="tam-sign_products_card_info_desc">{props.desc}</div>
+        <div className="sign_products_card_info">
+            <div className="sign_products_card_info_title">{props.title}</div>
+            <div className="sign_products_card_info_sub-title">{props.subTitle}</div>
+            <div className="sign_products_card_info_desc">{props.desc}</div>
         </div>
     );
 };

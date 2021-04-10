@@ -1,5 +1,5 @@
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
-import Util from 'lib/tam/util/Util';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
+import Util from 'lib/common/util/Util';
 import Screen from 'models/Screen';
 import Layout from 'models/Layout';
 import SignFactory from 'models/SignFactory';
@@ -8,12 +8,12 @@ import SignFactory from 'models/SignFactory';
 class Api {
 
     static async getConfigVersion() {
-        let cfg = await (await fetch('/data/config/tam-sign_config.json')).json();
+        let cfg = await (await fetch('/data/config/sign_config.json')).json();
         return (Util.isObject(cfg) && Util.isNonEmptyString(cfg.version)) ? cfg.version : null;
     }
 
     static async getScreens() {
-        let cfg = await (await fetch('/data/config/tam-sign_config.json')).json();
+        let cfg = await (await fetch('/data/config/sign_config.json')).json();
         let screens = {};
 
         if (Util.isObject(cfg) && Util.isObject(cfg['screens'])) {
@@ -35,7 +35,7 @@ class Api {
     }
 
     static async getLayouts() {
-        let cfg = await (await fetch('/data/config/tam-sign_config.json')).json();
+        let cfg = await (await fetch('/data/config/sign_config.json')).json();
         let layouts = {};
 
         if (Util.isObject(cfg) && Util.isObject(cfg['layouts'])) {
@@ -63,7 +63,7 @@ class Api {
     }
 
     static async getSigns() {
-        let cfg = await (await fetch('/data/config/tam-sign_config.json')).json();
+        let cfg = await (await fetch('/data/config/sign_config.json')).json();
         let signs = {};
 
         if (Util.isObject(cfg) && Util.isObject(cfg['signs'])) {

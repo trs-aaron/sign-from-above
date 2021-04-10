@@ -1,4 +1,4 @@
-import ErrorUtil from 'lib/tam/util/ErrorUtil';
+import ErrorUtil from 'lib/common/util/ErrorUtil';
 import Card from 'models/components/products/Card';
 import Sign from 'models/Sign';
 
